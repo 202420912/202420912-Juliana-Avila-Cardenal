@@ -17,6 +17,13 @@ void counterWhile(int number){
         cout<<"valor: "<<contador<<endl;
          contador++;
     }
+}
+
+void contadorInvertido (int number){
+    for (int i = number; i >=0; i--)
+    {
+        cout<<"Valor: "<<i <<endl;
+    }
     
 }
 
@@ -24,7 +31,7 @@ int main(){
     int userNumber;
     cout<<"Ingrese Número hasta el que quiere llegar:"<<endl;
     cin>>userNumber;
-    counterWhile(userNumber);
+    contadorInvertido(userNumber);
 
     return 0;
 }
